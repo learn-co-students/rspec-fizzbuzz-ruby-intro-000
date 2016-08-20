@@ -457,7 +457,7 @@ fizzbuzz(5) # => You should see a return of nil
 fizzbuzz()  # => You should get an argument error
 ```
 
-**Helpful Tip:** You can try code in IRB and then copy it to your program files as you get it working. 
+**Helpful Tip:** You can try code in IRB and then copy it to your program files as you get it working.
 Good luck!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rspec-fizzbuzz'>RSpec Fizzbuzz</a> on Learn.co and start learning to code for free.</p>
