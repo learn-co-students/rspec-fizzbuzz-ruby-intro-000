@@ -1,11 +1,14 @@
 def fizzbuzz(x)
-  number = x.to_i
-  puts number
-  if (number % 3 == 0) && (number % 5) == 0
+  x = x.to_i
+
+  if x % 3 == 0 && x % 5 == 0
     return "FizzBuzz"
-  elsif number % 5 == 0
-    return "Buzz"
-  elsif number % 3 == 0
+  elsif x % 3 == 0
     return "Fizz"
+  elsif x % 5 == 0
+    return "Buzz"
+  else
+    return nil
   end
+
 end
