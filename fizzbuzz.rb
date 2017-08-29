@@ -1,11 +1,14 @@
 def fizzbuzz(number)
-  if number % 3 == 0
-    puts "fizz"
+  if number % 15 == 0
+     "FizzBuzz"
   elsif number % 5 == 0
-    puts "buzz"
-  elsif number % 15 == 0
-    puts "fizzbuzz"
+    "Buzz"
+  elsif number % 3 == 0
+    "Fizz"
   else
-    puts "#{number}"
+    puts "number is not divisible by 3 or 5"
+
+  end
+
 
 end
