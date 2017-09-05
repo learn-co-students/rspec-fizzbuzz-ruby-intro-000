@@ -4,7 +4,8 @@
 # loaded once.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-
+# require_relative './spec_helper.rb'
+# require_relative '../fizzbuzz.rb'
 # NOTE: If you uncomment the following line,
 # you won't encounter the `undefined method \`fizzbuzz'`
 # error described in the README
