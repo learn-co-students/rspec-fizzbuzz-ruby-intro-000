@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 def fizzbuzz(int)
   if int % 15 == 0
     puts "FizzBuzz"
