@@ -463,11 +463,7 @@ Read that error message; it's brand new! Getting a new error message is a sign o
 That's the end of the tutorial part of this lab. You know enough about RSpec and Ruby to continue solving this in a test-driven manner. As you define your `#fizzbuzz` method, remember that you can always play with it in IRB. For instance, load an IRB terminal and try (line by line):
 
 ```ruby
-def fizzbuzz(int)
-  if int % 3 == 0 # if the number int is divisible by 3
-    "Fizz" # Go fizz
-  end
-end
+www.codecademy.com/courses/ruby-beginner-en-L3ZCI/0/1?curriculum_id=5059f8619189a5000201fbcb
 
 fizzbuzz(3) # => You should see a return of "Fizz"
 fizzbuzz(5) # => You should see a return of nil
