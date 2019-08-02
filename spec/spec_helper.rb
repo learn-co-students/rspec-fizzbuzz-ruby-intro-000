@@ -9,6 +9,9 @@
 # you won't encounter the `undefined method \`fizzbuzz'`
 # error described in the README
 # require_relative "../fizzbuzz"
+
+require_relative './spec_helper.rb'
+require_relative '../fizzbuzz.rb'
 RSpec.configure do |config|
   config.run_all_when_everything_filtered = true
   config.filter_run :focus
