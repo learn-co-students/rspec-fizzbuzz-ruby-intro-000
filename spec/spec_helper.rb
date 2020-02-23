@@ -19,3 +19,14 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = 'default'
 end
+
+
+File: `fizzbuzz.rb`
+
+```ruby
+def fizzbuzz
+
+end
+```
+
+require_relative './spec_helper.rb'
