@@ -15,3 +15,4 @@ end
 
 
 # if statement must be closed seperately from the method statement. If the method isn't closed with an end, it will throw the same error as if the RSpec wasn't loading fizzbuzz.rb
+# cannot use puts in front of the strings to display because it's return value is nil.
