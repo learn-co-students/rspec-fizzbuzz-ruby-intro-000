@@ -12,3 +12,6 @@ def fizzbuzz(int)
     puts
    end
 end
+
+
+# if statement must be closed seperately from the method statement. If the method isn't closed with an end, it will throw the same error as if the RSpec wasn't loading fizzbuzz.rb
