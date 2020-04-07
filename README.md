@@ -275,9 +275,9 @@ When we installed the RSpec and Learn.co gems, we got the `learn` command. When 
 
 So how does that work?
 
+1. RSpec looks in a directory named `spec` for all files 
 When we run the `learn` command, in a nutshell, here is what happens:
-
-1. RSpec looks in a directory named `spec` for all files that end with the pattern `_spec.rb`. Why the `spec` folder and the `_spec.rb` pattern? No reason, just convention.
+that end with the pattern `_spec.rb`. Why the `spec` folder and the `_spec.rb` pattern? No reason, just convention.
 2. RSpec then executes the Ruby code within each `_spec.rb` file.
 3. During that execution, RSpec pays attention to the results of each test and prints out a nice summary of what happened (which is the output above that we're going to dissect in a minute).
 
