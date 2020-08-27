@@ -1,2 +1,18 @@
-# Don't forget! This file needs to be 'required' in its spec file
-# See README.md for instructions on how to do this
+def fizzbuzz(number)
+if number % 3 && 5
+  puts "FizzBuzz"
+end
+ end
+
+def fizz(number)
+  if number % 3
+    puts "Fizz"
+  end
+end
+
+def buzz(number)
+  if number % 5
+    puts "Buzz"
+  else puts "nil"
+  end
+end
