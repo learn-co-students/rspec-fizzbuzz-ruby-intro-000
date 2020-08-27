@@ -1,18 +1,11 @@
 def fizzbuzz(number)
-if number % 3 && 5
-  puts "FizzBuzz"
+if number % 3 == 0 && number % 5 == 0
+  return "FizzBuzz"
+
+elsif number % 3 == 0
+return "Fizz"
+
+  elsif number % 5 == 0
+    return "Buzz"
 end
  end
-
-def fizz(number)
-  if number % 3
-    puts "Fizz"
-  end
-end
-
-def buzz(number)
-  if number % 5
-    puts "Buzz"
-  else puts "nil"
-  end
-end
