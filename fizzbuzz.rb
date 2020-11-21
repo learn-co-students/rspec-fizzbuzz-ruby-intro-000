@@ -10,3 +10,6 @@ def fizzbuzz(int)
         "Fizz"
     end
 end
+
+
+# check out the fizzbuzz in javascript in Angela Yu course
