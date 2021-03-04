@@ -1,2 +1,12 @@
-# Don't forget! This file needs to be 'required' in its spec file
-# See README.md for instructions on how to do this
+def fizzbuzz(number)
+  if number % 3 && number % 5
+      return "FizzBuzz"
+  else
+    if number % 3
+      return "Fizz"
+    elsif number % 5
+      return "Buzz"
+    end
+  end
+  return nil
+end
