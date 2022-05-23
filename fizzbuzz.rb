@@ -9,7 +9,7 @@ def fizzbuzz(int)
     end
   else
     if int % 5 == 0
-      "Buzz"
+      "Buzz!!!!"
       end
     end
 end
